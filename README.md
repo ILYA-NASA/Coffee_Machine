@@ -1,6 +1,6 @@
 # [Кофемашина](https://hyperskill.org/projects/67?track=18)
 
-## Этот проект позволит мне лучше понять концепции ООП на Kotlin. 
+## Этот проект позволит мне лучше понять концепции [ООП](https://github.com/ILYA-NASA/System_design) на Kotlin. 
 
 Здесь мне предстоит работать над [программированием симулятора кофемашины](https://github.com/ILYA-NASA/Coffee_Machine/tree/master/Coffee%20Machine)
 
@@ -12,7 +12,7 @@
 Поскольку ничего не дается бесплатно, кофемашина также собирает деньги.    
 </details>
 
-Кроме того, здесь будут [решения дополнительных задач по основным темам](https://github.com/ILYA-NASA/Coffee_Machine) проекта.  
+Кроме того, здесь будут [решения дополнительных задач по основным темам](https://github.com/ILYA-NASA/Coffee_Machine/tree/master/Topics) проекта.  
 
 Ниже скрин с перечнем тем проекта 
 
