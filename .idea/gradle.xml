@@ -9,7 +9,7 @@
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../Program Files/Gradle/gradle-7.5.1" />
-        <option name="gradleJvm" value="openjdk-19" />
+        <option name="gradleJvm" value="jbr-17 (2)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -27,6 +27,12 @@
             <option value="$PROJECT_DIR$/Topics/If expression/Leap year" />
             <option value="$PROJECT_DIR$/Topics/If expression/Positive, Negative or Zero" />
             <option value="$PROJECT_DIR$/Topics/If expression/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Integers in action/How many nuts will be left after division" />
+            <option value="$PROJECT_DIR$/Topics/Integers in action/Reversing a number" />
+            <option value="$PROJECT_DIR$/Topics/Integers in action/The first digit of a two-digit number" />
+            <option value="$PROJECT_DIR$/Topics/Integers in action/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Integers in action/Underscore" />
+            <option value="$PROJECT_DIR$/Topics/Integers in action/Unsigned integers" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
