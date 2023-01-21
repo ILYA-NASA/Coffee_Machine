@@ -33,6 +33,10 @@
             <option value="$PROJECT_DIR$/Topics/Integers in action/Theory" />
             <option value="$PROJECT_DIR$/Topics/Integers in action/Underscore" />
             <option value="$PROJECT_DIR$/Topics/Integers in action/Unsigned integers" />
+            <option value="$PROJECT_DIR$/Topics/String basics/Concatenation" />
+            <option value="$PROJECT_DIR$/Topics/String basics/Correct ways to create a string" />
+            <option value="$PROJECT_DIR$/Topics/String basics/Fix it" />
+            <option value="$PROJECT_DIR$/Topics/String basics/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
