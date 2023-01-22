@@ -64,7 +64,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output-test url="file://$MODULE_DIR$/../../../../Coffee Machine/task/out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../Coffee Machine/task/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../Coffee Machine/task/src/test" />
     <content url="file://$MODULE_DIR$/../../../../Coffee Machine/task/test">

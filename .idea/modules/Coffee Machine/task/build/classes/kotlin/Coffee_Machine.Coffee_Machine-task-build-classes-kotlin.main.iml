@@ -45,7 +45,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../../../../../../Coffee Machine/task/build/classes/kotlin/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../../../../../Coffee Machine/task/build/classes/kotlin/build/classes/java/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../../../Coffee Machine/task/build/classes/kotlin/src" />
     <orderEntry type="inheritedJdk" />

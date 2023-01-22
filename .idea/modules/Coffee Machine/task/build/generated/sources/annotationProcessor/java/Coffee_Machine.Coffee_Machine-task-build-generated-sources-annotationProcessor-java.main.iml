@@ -45,7 +45,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../../../../../../../../Coffee Machine/task/build/generated/sources/annotationProcessor/java/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../../../../../../../Coffee Machine/task/build/generated/sources/annotationProcessor/java/build/classes/java/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../../../../../Coffee Machine/task/build/generated/sources/annotationProcessor/java/src" />
     <orderEntry type="inheritedJdk" />
