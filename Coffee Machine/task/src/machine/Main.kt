@@ -1,24 +1,24 @@
 package machine
 
+import kotlin.math.min
+
 fun main() {
 
-//    println(
-//        "Starting to make a coffee\n" +
-//                "Grinding coffee beans\n" +
-//                "Boiling water\n" +
-//                "Mixing boiled water with crushed coffee beans\n" +
-//                "Pouring coffee into the cup\n" +
-//                "Pouring some milk into the cup\n" +
-//                "Coffee is ready!"
-//    )
-
+    println("Write how many ml of water the coffee machine has:")
+    val water = readln().toInt()
+    println("Write how many ml of milk the coffee machine has:")
+    val milk = readln().toInt()
+    println("Write how many grams of coffee beans the coffee machine has:")
+    val beans = readln().toInt()
     println("Write how many cups of coffee you will need:")
-    val input = readln().toInt()
-    println(
-        "For $input cups of coffee you will need:\n" +
-                input * 200 + " ml of water\n" +
-                input * 50 + " ml of milk\n" +
-                input * 15 + " g of coffee beans"
-    )
+    val userCups = readln().toInt()
+
+    val caps = minOf(water / 200, milk / 50, beans / 15)
+
+    when {
+        userCups < caps -> println("Yes, I can make that amount of coffee (and even " + (caps - userCups) + " more than that)")
+        userCups > caps -> println("No, I can make only $caps cups of coffee")
+        else -> println("Yes, I can make that amount of coffee")
+    }
 
 }
