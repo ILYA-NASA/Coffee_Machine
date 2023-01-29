@@ -9,7 +9,7 @@
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../Program Files/Gradle/gradle-7.5.1" />
-        <option name="gradleJvm" value="jbr-17 (2)" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -56,6 +56,16 @@
             <option value="$PROJECT_DIR$/Topics/String basics/Correct ways to create a string" />
             <option value="$PROJECT_DIR$/Topics/String basics/Fix it" />
             <option value="$PROJECT_DIR$/Topics/String basics/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/An incorrect line" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/Declarations" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/Declaring a mutable variable" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/Declaring an immutable variable" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/Fix the program" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/Very Big Number" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/What is the value of a variable" />
+            <option value="$PROJECT_DIR$/Topics/Values and variables/val or var" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
