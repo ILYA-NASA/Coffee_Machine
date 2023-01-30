@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/215428/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Sun, 29 Jan 2023 08:32:19 UTC"
+update_date: "Mon, 30 Jan 2023 09:12:28 UTC"
 stages:
 - id: 360
   step: 5659
@@ -94,7 +94,7 @@ topics:
     theory_id: 4631
   - title: IntelliJ IDEA
     theory_id: 3801
-  - title: IDEA Basics
+  - title: IntelliJ IDEA basics
     theory_id: 5819
   - title: EduTools
     theory_id: 5839

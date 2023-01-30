@@ -9,7 +9,7 @@
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../Program Files/Gradle/gradle-7.5.1" />
-        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="gradleJvm" value="jbr-17 (2)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -38,6 +38,7 @@
             <option value="$PROJECT_DIR$/Topics/Integers in action/Reversing a number" />
             <option value="$PROJECT_DIR$/Topics/Integers in action/The first digit of a two-digit number" />
             <option value="$PROJECT_DIR$/Topics/Integers in action/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Integers in action/Time difference" />
             <option value="$PROJECT_DIR$/Topics/Integers in action/Underscore" />
             <option value="$PROJECT_DIR$/Topics/Integers in action/Unsigned integers" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Initializing a mutable list of characters" />
@@ -45,6 +46,12 @@
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Initializing a mutable list of longs" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/The last element of a list" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Grades" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Increment in loop" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Kotlin x5" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Maximum element divisible by 4" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Repeat by value" />
+            <option value="$PROJECT_DIR$/Topics/Repeating blocks/Theory" />
             <option value="$PROJECT_DIR$/Topics/Standard output/Amount on the account" />
             <option value="$PROJECT_DIR$/Topics/Standard output/First, second, third" />
             <option value="$PROJECT_DIR$/Topics/Standard output/From 0 to 9" />
@@ -55,6 +62,7 @@
             <option value="$PROJECT_DIR$/Topics/String basics/Concatenation" />
             <option value="$PROJECT_DIR$/Topics/String basics/Correct ways to create a string" />
             <option value="$PROJECT_DIR$/Topics/String basics/Fix it" />
+            <option value="$PROJECT_DIR$/Topics/String basics/JSON" />
             <option value="$PROJECT_DIR$/Topics/String basics/Theory" />
             <option value="$PROJECT_DIR$/Topics/Values and variables/An incorrect line" />
             <option value="$PROJECT_DIR$/Topics/Values and variables/Declarations" />
