@@ -1,3 +1,3 @@
 fun main() {
-    // put your code here
+    print(readln().first())
 }

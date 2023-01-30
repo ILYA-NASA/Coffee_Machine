@@ -1,3 +1,5 @@
 fun main() {
-    // put your code here
+    val n = readln().toInt()
+    val k = readln().toInt()
+    print(k % n)
 }
