@@ -9,7 +9,6 @@
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../Program Files/Gradle/gradle-7.5.1" />
-        <option name="gradleJvm" value="jbr-17 (2)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -27,6 +26,19 @@
             <option value="$PROJECT_DIR$/Topics/Comments/Incorrect comments" />
             <option value="$PROJECT_DIR$/Topics/Comments/Printing only the longest line" />
             <option value="$PROJECT_DIR$/Topics/Comments/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functions/Comparing sums" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functions/Get last digit" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functions/How to declare a function" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functions/Return type" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functions/The square of a number" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functions/The sum of three numbers" />
+            <option value="$PROJECT_DIR$/Topics/Declaring functions/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Equality/Equality" />
+            <option value="$PROJECT_DIR$/Topics/Equality/Kings of Sweden" />
+            <option value="$PROJECT_DIR$/Topics/Equality/Referential equality" />
+            <option value="$PROJECT_DIR$/Topics/Equality/The same object" />
+            <option value="$PROJECT_DIR$/Topics/Equality/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Equality/True captain" />
             <option value="$PROJECT_DIR$/Topics/If expression/Check a number is positive" />
             <option value="$PROJECT_DIR$/Topics/If expression/Find the output" />
             <option value="$PROJECT_DIR$/Topics/If expression/Find the output (1)" />
@@ -74,6 +86,13 @@
             <option value="$PROJECT_DIR$/Topics/Values and variables/Very Big Number" />
             <option value="$PROJECT_DIR$/Topics/Values and variables/What is the value of a variable" />
             <option value="$PROJECT_DIR$/Topics/Values and variables/val or var" />
+            <option value="$PROJECT_DIR$/Topics/While loops/Bank interest calculation" />
+            <option value="$PROJECT_DIR$/Topics/While loops/Choose the correct ones" />
+            <option value="$PROJECT_DIR$/Topics/While loops/Collatz conjecture" />
+            <option value="$PROJECT_DIR$/Topics/While loops/The length of the sequence" />
+            <option value="$PROJECT_DIR$/Topics/While loops/The sum of elements" />
+            <option value="$PROJECT_DIR$/Topics/While loops/Theory" />
+            <option value="$PROJECT_DIR$/Topics/While loops/What does the code print" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
