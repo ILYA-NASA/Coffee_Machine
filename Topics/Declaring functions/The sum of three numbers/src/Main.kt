@@ -2,9 +2,9 @@ fun sum(a: Int, b: Int, c: Int): Int {
     return a + b + c
 }
 
-//fun sum(a: Int, b: Int, c: Int) = a + b + c
+// fun sum(a: Int, b: Int, c: Int) = a + b + c
 
-//fun sum(vararg a: Int) = a.sum()
+// fun sum(vararg a: Int) = a.sum()
 
 fun main() {
     val a = readLine()!!.toInt()
