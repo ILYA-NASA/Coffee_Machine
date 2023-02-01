@@ -1,10 +1,9 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
 options:
-- text: ===
-- text: .equals()
-- text: ==
-- text: .compare()
+- text: 1
+- text: 2
+- text: 3
 files:
 - name: src/Main.kt
   visible: true
@@ -15,7 +14,8 @@ files:
       // put your code here
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/11238#comment
+feedback_link: https://hyperskill.org/learn/step/4674#comment
 status: Solved
 record: -1
+custom_name: Where is the type overflow possible?
 local_check: false
