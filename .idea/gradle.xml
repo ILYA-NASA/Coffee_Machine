@@ -58,6 +58,11 @@
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Initializing a mutable list of longs" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/The last element of a list" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Ranges/Check the value" />
+            <option value="$PROJECT_DIR$/Topics/Ranges/Job" />
+            <option value="$PROJECT_DIR$/Topics/Ranges/Not in range" />
+            <option value="$PROJECT_DIR$/Topics/Ranges/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Ranges/Working hours" />
             <option value="$PROJECT_DIR$/Topics/Repeating blocks/Grades" />
             <option value="$PROJECT_DIR$/Topics/Repeating blocks/Increment in loop" />
             <option value="$PROJECT_DIR$/Topics/Repeating blocks/Kotlin x5" />
@@ -76,6 +81,14 @@
             <option value="$PROJECT_DIR$/Topics/String basics/Fix it" />
             <option value="$PROJECT_DIR$/Topics/String basics/JSON" />
             <option value="$PROJECT_DIR$/Topics/String basics/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Type conversion/Application" />
+            <option value="$PROJECT_DIR$/Topics/Type conversion/Converting to Byte" />
+            <option value="$PROJECT_DIR$/Topics/Type conversion/Lie detector" />
+            <option value="$PROJECT_DIR$/Topics/Type conversion/Program result" />
+            <option value="$PROJECT_DIR$/Topics/Type conversion/Simple converter" />
+            <option value="$PROJECT_DIR$/Topics/Type conversion/The superior forces of the Empire" />
+            <option value="$PROJECT_DIR$/Topics/Type conversion/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Type conversion/Where is the type overflow possible" />
             <option value="$PROJECT_DIR$/Topics/Values and variables/An incorrect line" />
             <option value="$PROJECT_DIR$/Topics/Values and variables/Declarations" />
             <option value="$PROJECT_DIR$/Topics/Values and variables/Declaring a mutable variable" />
