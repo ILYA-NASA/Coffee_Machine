@@ -1,3 +1,4 @@
+
 fun main(args: Array<String>) {
     println(
         when (readln().toInt()) {
