@@ -1,28 +1,18 @@
 package machine
 
-const val WATER = 400
-const val MILK = 540
-const val COFFEE_BEANS = 120
-const val CUPS = 9
-const val MONEY = 550
+var allWater = 400
+var allMilk = 540
+var allCoffeeBeans = 120
+var allCups = 9
+var allMoney = 550
 
 fun main() {
-
-    println(
-        "The coffee machine has:\n" +
-                "$WATER ml of water\n" +
-                "$MILK ml of milk\n" +
-                "$COFFEE_BEANS g of coffee beans\n" +
-                "$CUPS disposable cups\n" +
-                "$$MONEY of money\n" +
-                "\n" +
-                "Write action (buy, fill, take): "
-    )
+    println("\nWrite action (buy, fill, take, remaining, exit):")
 
     when (readln()) {
         "buy" -> {
-            println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ")
-            buy(readln().toInt())
+            println("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu: ")
+            buy(readln())
         }
 
         "fill" -> {
@@ -38,63 +28,102 @@ fun main() {
         }
 
         "take" -> take()
-        else -> println(
-            "incorrect choice"
-        )
+        "remaining" -> remaining()
+        "exit" -> return
     }
 }
 
-fun buy(input: Int) {
+fun remaining() {
+    println(
+        "\nThe coffee machine has:\n" +
+                "$allWater ml of water\n" +
+                "$allMilk ml of milk\n" +
+                "$allCoffeeBeans g of coffee beans\n" +
+                "$allCups disposable cups\n" +
+                "$$allMoney of money\n"
+    )
+    main()
+}
+
+fun buy(input: String) {
     when (input) {
-        1 -> println(
-            "The coffee machine has:\n" +
-                    "${WATER - 250} ml of water\n" +
-                    "$MILK ml of milk\n" +
-                    "${COFFEE_BEANS - 16} g of coffee beans\n" +
-                    "${CUPS - 1} disposable cups\n" +
-                    "$${MONEY + 4} of money"
-        )
+        "1" -> {
+            if (checkingStockLevels(input)) {
+                allWater -= 250
+                allCoffeeBeans -= 16
+                allCups -= 1
+                allMoney += 4
+                println("I have enough resources, making you a coffee!")
+                main()
+            } else {
+                println("Sorry, not enough water!")
+                main()
+            }
+        }
 
-        2 -> println(
-            "The coffee machine has:\n" +
-                    "${WATER - 350} ml of water\n" +
-                    "${MILK - 75} ml of milk\n" +
-                    "${COFFEE_BEANS - 20} g of coffee beans\n" +
-                    "${CUPS - 1} disposable cups\n" +
-                    "$${MONEY + 7} of money"
-        )
+        "2" -> {
+            if (checkingStockLevels(input)) {
+                allWater -= 350
+                allMilk -= 75
+                allCoffeeBeans -= 20
+                allCups -= 1
+                allMoney += 7
+                println("I have enough resources, making you a coffee!")
+                main()
+            } else {
+                println("Sorry, not enough water!")
+                main()
+            }
+        }
 
-        3 -> println(
-            "The coffee machine has:\n" +
-                    "${WATER - 200} ml of water\n" +
-                    "${MILK - 100} ml of milk\n" +
-                    "${COFFEE_BEANS - 12} g of coffee beans\n" +
-                    "${CUPS - 1} disposable cups\n" +
-                    "$${MONEY + 6} of money"
-        )
+        "3" -> {
+            if (checkingStockLevels(input)) {
+                allWater -= 200
+                allMilk -= 100
+                allCoffeeBeans -= 12
+                allCups -= 1
+                allMoney += 6
+                println("I have enough resources, making you a coffee!")
+                main()
+            } else {
+                println("Sorry, not enough water!")
+                main()
+            }
+        }
+
+        "back" -> main()
     }
+}
+
+fun checkingStockLevels(input: String): Boolean {
+    return (when (input) {
+        "1" -> (allWater - 250) >= 0 &&
+                (allCoffeeBeans - 16) >= 0 &&
+                (allCups - 1) >= 0
+
+        "2" -> (allWater - 350) >= 0 &&
+                (allMilk - 75) >= 0 &&
+                (allCoffeeBeans - 20) >= 0 &&
+                (allCups - 1) >= 0
+
+        else -> (allWater - 200) >= 0 &&
+                (allMilk - 100) >= 0 &&
+                (allCoffeeBeans - 12) >= 0 &&
+                (allCups - 1) >= 0
+    }
+            )
 }
 
 fun fill(water: Int, milk: Int, coffeeBeans: Int, disposableCups: Int) {
-    println(
-        "The coffee machine has:\n" +
-                "${WATER + water} ml of water\n" +
-                "${MILK + milk} ml of milk\n" +
-                "${COFFEE_BEANS + coffeeBeans} g of coffee beans\n" +
-                "${CUPS + disposableCups} disposable cups\n" +
-                "$$MONEY of money"
-    )
+    allWater += water
+    allMilk += milk
+    allCoffeeBeans += coffeeBeans
+    allCups += disposableCups
+    main()
 }
 
 fun take() {
-    println(
-        "I gave you $$MONEY\n" +
-                "\n" +
-                "The coffee machine has:\n" +
-                "$WATER ml of water\n" +
-                "$MILK ml of milk\n" +
-                "$COFFEE_BEANS g of coffee beans\n" +
-                "$CUPS disposable cups\n" +
-                "$${MONEY - MONEY} of money\n"
-    )
+    println("I gave you $$allMoney")
+    allMoney = 0
+    main()
 }
