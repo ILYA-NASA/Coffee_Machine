@@ -62,6 +62,7 @@
             <option value="$PROJECT_DIR$/Topics/Ranges/Job" />
             <option value="$PROJECT_DIR$/Topics/Ranges/Not in range" />
             <option value="$PROJECT_DIR$/Topics/Ranges/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Ranges/Within both ranges" />
             <option value="$PROJECT_DIR$/Topics/Ranges/Working hours" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Are the numbers different" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Check the value" />
@@ -116,6 +117,7 @@
             <option value="$PROJECT_DIR$/Topics/While loops/Bank interest calculation" />
             <option value="$PROJECT_DIR$/Topics/While loops/Choose the correct ones" />
             <option value="$PROJECT_DIR$/Topics/While loops/Collatz conjecture" />
+            <option value="$PROJECT_DIR$/Topics/While loops/Squares of natural numbers" />
             <option value="$PROJECT_DIR$/Topics/While loops/The length of the sequence" />
             <option value="$PROJECT_DIR$/Topics/While loops/The sum of elements" />
             <option value="$PROJECT_DIR$/Topics/While loops/Theory" />
