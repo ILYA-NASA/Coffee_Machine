@@ -77,6 +77,10 @@
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Initializing a mutable list of longs" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/The last element of a list" />
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Named arguments/Invocations" />
+            <option value="$PROJECT_DIR$/Topics/Named arguments/Perimeter" />
+            <option value="$PROJECT_DIR$/Topics/Named arguments/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Named arguments/URL" />
             <option value="$PROJECT_DIR$/Topics/Ranges/Check the value" />
             <option value="$PROJECT_DIR$/Topics/Ranges/Job" />
             <option value="$PROJECT_DIR$/Topics/Ranges/Not in range" />
@@ -127,6 +131,7 @@
             <option value="$PROJECT_DIR$/Topics/Values and variables/What is the value of a variable" />
             <option value="$PROJECT_DIR$/Topics/Values and variables/val or var" />
             <option value="$PROJECT_DIR$/Topics/When expression/Floor-space of the room" />
+            <option value="$PROJECT_DIR$/Topics/When expression/From string to a number" />
             <option value="$PROJECT_DIR$/Topics/When expression/Harry Potter" />
             <option value="$PROJECT_DIR$/Topics/When expression/Just checking" />
             <option value="$PROJECT_DIR$/Topics/When expression/Shape" />
