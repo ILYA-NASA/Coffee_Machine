@@ -50,6 +50,11 @@
             <option value="$PROJECT_DIR$/Topics/Default arguments/Polynomial" />
             <option value="$PROJECT_DIR$/Topics/Default arguments/Summation" />
             <option value="$PROJECT_DIR$/Topics/Default arguments/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Currencies" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Danger level" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Days of the week" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Properties of Enum" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Theory" />
             <option value="$PROJECT_DIR$/Topics/Equality/Equality" />
             <option value="$PROJECT_DIR$/Topics/Equality/Kings of Sweden" />
             <option value="$PROJECT_DIR$/Topics/Equality/Referential equality" />
@@ -86,6 +91,7 @@
             <option value="$PROJECT_DIR$/Topics/Introduction to MutableList/Theory" />
             <option value="$PROJECT_DIR$/Topics/Member functions/Arithmetic operations" />
             <option value="$PROJECT_DIR$/Topics/Member functions/Bugs in a vinyl store" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Patient needs a doctor" />
             <option value="$PROJECT_DIR$/Topics/Member functions/Theory" />
             <option value="$PROJECT_DIR$/Topics/Member functions/Volume of a cube" />
             <option value="$PROJECT_DIR$/Topics/Named arguments/Invocations" />
