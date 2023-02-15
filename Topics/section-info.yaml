@@ -21,3 +21,6 @@ content:
 - Constructors
 - Member functions
 - Enum
+- Data types
+- String templates
+- Property accessors
