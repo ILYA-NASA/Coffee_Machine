@@ -1,11 +1,7 @@
 fun main() {
-//    val a = readln().toInt()
-//    val b = readln().toInt()
-//    val c = readln().toInt()
-//
-//    println(a != b && b != c && a != c)
+    val a = readln().toInt()
+    val b = readln().toInt()
+    val c = readln().toInt()
 
-    val numbs = List(3) { readLine()!!.toInt() }.toSet()
-    print(numbs.size == 3)
-
+    println((a != b && b != c && a != c))
 }
