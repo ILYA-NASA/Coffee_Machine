@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-04T13:24:49" hostname="NASA" time="0.254">
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-16T13:23:18" hostname="NASA" time="0.261">
   <properties/>
-  <testcase name="start" classname="CoffeeMachineTest" time="0.254"/>
+  <testcase name="start" classname="CoffeeMachineTest" time="0.261"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 
