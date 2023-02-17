@@ -1,7 +1,5 @@
 package machine
 
-import java.util.Scanner
-
 fun main() {
     val machineContents = MachineContents(400,540,120,9,550)
     val myFreshCoffeeMachine = CoffeeMachine(machineContents)
@@ -47,7 +45,6 @@ enum class MachineStatus(val description: String) {
 class CoffeeMachine(var machineContents: MachineContents) {
 
     var status: MachineStatus = MachineStatus.ACTION
-    var scanner = Scanner(System.`in`)
 
     fun runMachine() {
         while (status != MachineStatus.EXIT) {
@@ -64,7 +61,7 @@ class CoffeeMachine(var machineContents: MachineContents) {
 
     private fun buy() {
         println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu: ")
-        val choice = scanner.next()
+        val choice = readln()
         this.status = MachineStatus.ACTION
         machineContents = when (choice) {
             "1" -> CoffeeTypes.ESPRESSO.buyCoffee(this.machineContents)
@@ -76,7 +73,7 @@ class CoffeeMachine(var machineContents: MachineContents) {
 
     private fun action() {
         println("Write action (buy, fill, take, remaining, exit): ")
-        val choice = scanner.next()
+        val choice = readln()
         this.status = when (choice) {
             "buy" -> MachineStatus.BUY
             "fill" -> MachineStatus.FILL
@@ -105,13 +102,13 @@ class CoffeeMachine(var machineContents: MachineContents) {
 
     private fun fill() {
         println("Write how many ml of water do you want to add: ")
-        machineContents.water += scanner.nextInt()
+        machineContents.water += readln().toInt()
         println("Write how many ml of milk do you want to add: ")
-        machineContents.milk += scanner.nextInt()
+        machineContents.milk += readln().toInt()
         println("Write how many grams of coffee beans do you want to add: ")
-        machineContents.coffeeBeans += scanner.nextInt()
+        machineContents.coffeeBeans += readln().toInt()
         println("Write how many disposable cups of coffee do you want to add: ")
-        machineContents.cups += scanner.nextInt()
+        machineContents.cups += readln().toInt()
         this.status = MachineStatus.ACTION
     }
 
